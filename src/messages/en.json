@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "title": "keenylog - AI Pet Health Management",
+    "description": "From AI food analysis to health checks and walk tracking. Manage your pet's healthy life with keenylog."
+  },
+  "header": {
+    "features": "Features",
+    "aiAnalysis": "AI Analysis",
+    "community": "Community",
+    "download": "Download"
+  },
+  "hero": {
+    "badge": "AI-Powered Pet Health Management App",
+    "title": "Your Pet's\nHealthy Daily Life",
+    "titleHighlight": "with keenylog",
+    "subtitle": "From AI food analysis to health checks and walk tracking.\nEverything you need for your pet's health in one place.",
+    "cta_primary": "Download App",
+    "cta_secondary": "Learn More",
+    "social_proof": "Trusted by 10,000+ pet parents"
+  },
+  "features": {
+    "sectionBadge": "Features",
+    "sectionTitle": "Smart Pet\nHealth Management",
+    "sectionSubtitle": "Your AI-powered partner that analyzes, records, and grows together with your pet",
+    "food_analysis": {
+      "title": "AI Food Analysis",
+      "description": "Just one photo of pet food and AI automatically analyzes calories, nutrients, ingredients, and quality rating."
+    },
+    "stool_check": {
+      "title": "AI Health Check",
+      "description": "Get health scores, color & consistency analysis, urgency assessment, and health advice from a stool photo."
+    },
+    "walk_tracking": {
+      "title": "Walk & Exercise Tracking",
+      "description": "Track daily walks with GPS route tracking, step counting, and distance measurement."
+    },
+    "weight_management": {
+      "title": "Weight Management",
+      "description": "Record daily weight and visualize health changes at a glance with trend charts."
+    },
+    "grooming_vet": {
+      "title": "Grooming & Vet Records",
+      "description": "Systematically manage grooming schedules and vet visit records with photos."
+    },
+    "gamification": {
+      "title": "Missions & Rewards",
+      "description": "Complete daily and weekly missions to earn EXP and points, and level up your pet."
+    }
+  },
+  "aiShowcase": {
+    "sectionBadge": "AI Analysis",
+    "sectionTitle": "Read Health\nFrom One Photo",
+    "sectionSubtitle": "Google Gemini AI precisely analyzes your pet's meals and health status",
+    "food": {
+      "title": "AI Food Analysis",
+      "description": "Take a photo of food or treats, and AI instantly analyzes food type, calories, nutrients, and quality rating.",
+      "feature1": "Auto Calorie & Nutrient Calculation",
+      "feature2": "Ingredient Analysis & Quality Rating",
+      "feature3": "Personalized Feeding Recommendations"
+    },
+    "stool": {
+      "title": "AI Health Check",
+      "description": "Get a health score (1-10), color & consistency analysis, and urgency assessment from a stool photo.",
+      "feature1": "Health Score 1-10",
+      "feature2": "Color, Consistency & Shape Analysis",
+      "feature3": "Health Advice"
+    }
+  },
+  "gamification": {
+    "sectionBadge": "Gamification",
+    "sectionTitle": "Achieve Daily,\nGrow Together",
+    "sectionSubtitle": "Complete missions, earn rewards, and level up together with your pet",
+    "daily_missions": "Daily Missions",
+    "weekly_missions": "Weekly Missions",
+    "mission_attendance": "Daily Check-in",
+    "mission_food": "Log Nutrition",
+    "mission_walk": "Walk 10+ Minutes",
+    "mission_stool": "Weekly Health Check",
+    "mission_weight": "Weekly Weight Log",
+    "streak": "Streak",
+    "streak_days": "Day {count}",
+    "level": "Level",
+    "exp": "EXP",
+    "points": "Points",
+    "gems": "Gems",
+    "membership_bonus": "Get 1.5x point bonus with membership!"
+  },
+  "community": {
+    "sectionBadge": "Community",
+    "sectionTitle": "Share Your\nPet's Stories",
+    "sectionSubtitle": "AI writes diaries from your pet's perspective",
+    "diary_title": "AI Pet Diary",
+    "diary_description": "AI writes daily diaries from your pet's point of view",
+    "sample_diary1": "Went on a 30-minute walk with mom at the park today! The breeze felt so good~ 🐾",
+    "sample_diary2": "Tried a new treat and it was delicious! Gotta ask for more next time 😋",
+    "sample_diary3": "Weighed myself today and I'm lighter than last week. Must be the walks! 💪"
+  },
+  "download": {
+    "sectionTitle": "Get Started\nToday",
+    "sectionSubtitle": "Create a healthy daily routine for your pet with keenylog.\nDownload for free and receive 1,000 welcome points!",
+    "appStore": "App Store",
+    "playStore": "Google Play",
+    "free": "Free Download"
+  },
+  "footer": {
+    "brand_description": "AI-Powered Pet Health Management App",
+    "product": "Product",
+    "features": "Features",
+    "ai_analysis": "AI Analysis",
+    "pricing": "Pricing",
+    "support": "Support",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© {year} keenylog. All rights reserved."
+  }
+}

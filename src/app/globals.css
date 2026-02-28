@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary-50: #FFF3ED;
+  --color-primary-100: #FFE4D4;
+  --color-primary-200: #FFC5A8;
+  --color-primary-300: #FF9F71;
+  --color-primary-400: #FF7A3D;
+  --color-primary-500: #FF6B35;
+  --color-primary-600: #E85520;
+  --color-primary-700: #C14016;
+  --color-primary-800: #9A3418;
+  --color-primary-900: #7D2E17;
+
+  --color-secondary-50: #E0F2F1;
+  --color-secondary-100: #B2DFDB;
+  --color-secondary-200: #80CBC4;
+  --color-secondary-300: #4DB6AC;
+  --color-secondary-400: #26A69A;
+  --color-secondary-500: #009688;
+  --color-secondary-600: #00897B;
+  --color-secondary-700: #00796B;
+  --color-secondary-800: #00695C;
+  --color-secondary-900: #004D40;
+
+  --font-sans: "Pretendard Variable", var(--font-inter), system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* Light mode */
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --card: rgba(255, 255, 255, 0.8);
+  --card-border: rgba(0, 0, 0, 0.06);
+}
+
+/* Dark mode */
+.dark {
+  --background: #0a0a0f;
+  --foreground: #f1f5f9;
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+  --card: rgba(255, 255, 255, 0.05);
+  --card-border: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+/* Gradient background orbs */
+.gradient-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.dark .gradient-orb {
+  opacity: 0.15;
+}
+
+/* Glass card */
+.glass-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Section divider gradient */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--card-border),
+    transparent
+  );
+}
+
+/* Hide scrollbar for horizontal scrolling */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
